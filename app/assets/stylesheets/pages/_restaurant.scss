@@ -1,14 +1,42 @@
 .restaurant {
+  padding-top: 80px;
+  background-color: #E85D75;
+  border-radius: 5px;
+
   h2 {
     font-weight: lighter;
-    font-size: 25;
+    font-size: 25px;
     font-family: Helvetica;
-    margin-bottom: 30px;
+    color: #E85D75;
   }
 
   h4 {
     font-weight: lighter;
-    font-size: 15px;
+    font-size: 20px;
     font-family: Helvetica;
+    color: #E85D75;
+  }
+  .review2 {
+    font-weight: lighter;
+    font-size: 25px;
+    font-family: Helvetica;
+    color: white;
+  }
+
+  .review {
+    font-weight: lighter;
+    font-size: 20px;
+    font-family: Helvetica;
+    color: white;
+  }
+
+  // br {
+  //   font-color: white;
+  //   font-size: 2px;
+  // }
+
+  .navbar-wagon-button {
+    background-color: white;
+    color: black;
   }
 }

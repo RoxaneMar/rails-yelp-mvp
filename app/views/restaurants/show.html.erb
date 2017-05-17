@@ -17,16 +17,19 @@
       </div>
     </div>
     <div class="col-xs-12 col-sm-8-offset-2 text-center">
-    <%= link_to 'Add a new review', new_restaurant_review_path(@restaurant), class:'btn btn-primary' %>
+    <%= link_to 'Add a new review', new_restaurant_review_path(@restaurant), class:'btn navbar-wagon-button' %>
     </div>
     <div class="col-xs-12 col-sm-8-offset-2 text-center">
-      <h2>Reviews</h2>
+      <h2 class='review2'>Reviews</h2>
       <% @restaurant.reviews.each do |review| %>
         <div class= "col-xs-6">
-          <h4><%= review.content %></h4>
+          <h4 class='review'><%= review.content %></h4>
         </div>
         <div class= "col-xs-6">
-          <h4><%= review.rating %></h4>
+          <h4 class='review'><%= review.rating %></h4>
+        </div>
+        <div class="col-xs-12">
+          <hr class='br'>
         </div>
       <% end %>
     </div>

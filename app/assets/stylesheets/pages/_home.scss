@@ -3,18 +3,23 @@
  * (margin/padding adjustments)
  * ------------------------------------- */
 .home {
+  padding-top: 80px;
+  background-color: #E85D75;
+  border-radius: 5px;
+
   h1 {
     font-weight: lighter;
     font-size: 25;
     font-family: Helvetica;
     margin-bottom: 30px;
+    color: white;
   }
 
   h3 {
     font-weight: lighter;
     font-size: 20px;
     font-family: Helvetica;
-
+    color: #E85D75;
   }
 
   h4 {

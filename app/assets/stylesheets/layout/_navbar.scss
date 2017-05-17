@@ -14,8 +14,8 @@
 /* Optional class to fix the navbar on top */
 .navbar-wagon-fixed {
   position: fixed;
-  left: 0px;
-  top: 0px;
+  // left: 5px;
+  // top: 5px;
   z-index: 1;
   width: 100%;
 }
@@ -55,10 +55,10 @@
   padding: 0 20px;
   border-radius: 20em;
   line-height: 40px;
-  background-color: #fafafa;
-  color: black;
+  background-color: #E85D75;
+  color: white;
   font-size: 14px;
-  border: 2px solid #lightgrey;
+  border: 1px solid white;
 }
 .navbar-wagon-button:hover {
   color: white;
