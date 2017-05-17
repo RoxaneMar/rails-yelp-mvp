@@ -8,6 +8,7 @@
   padding: 0px 30px;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 /* Optional class to fix the navbar on top */
@@ -54,10 +55,10 @@
   padding: 0 20px;
   border-radius: 20em;
   line-height: 40px;
-  background-color: #D23333;
-  color: white;
+  background-color: #fafafa;
+  color: black;
   font-size: 14px;
-  border: 2px solid #D23333;
+  border: 2px solid #lightgrey;
 }
 .navbar-wagon-button:hover {
   color: white;
